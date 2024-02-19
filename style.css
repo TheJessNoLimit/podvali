@@ -1,0 +1,121 @@
+.anim{
+    width:400px;
+    height:400px;
+    background-color: rgb(170, 33, 28);
+    animation-name: pyow;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction:alternate-reverse ;
+    animation-delay: 0ms;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+}
+@keyframes pyow{
+    0% {   
+        border-radius: 0%;
+
+    }
+    25% {
+        border-radius: 25%;
+
+    }
+    50% {   
+        border-radius: 50%;
+
+    }
+    75% {   
+        border-radius: 75%;
+
+    }
+    100% {   
+        border-radius: 100%;
+
+    }
+}
+.s{
+    width:200px;
+    height:200px;
+    background-color: rgb(232, 144, 141);
+    animation-name: Color;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction:alternate-reverse ;
+    animation-delay: 0ms;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+}
+@keyframes Color{
+    0% {   
+        background-color: blue;
+
+    }
+    25% {
+        background-color: rgb(0, 255, 102);
+
+    }
+    50% {   
+        background-color: rgb(255, 0, 0);
+
+    }
+    75% {   
+        background-color: rgb(208, 255, 0);
+
+    }
+    100% {   
+        background-color: rgb(255, 0, 102);
+    }
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 1.4px 0px black;
+    animation-name: textblock;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction:alternate-reverse ;
+    animation-delay: 0ms;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+}   
+@keyframes textblock{
+    0%{
+        font-size: 15px;
+        color: blue;
+        text-shadow: 1.4px 0px black;
+
+    }
+    100%{
+        font-size: 100px;
+        color: rgb(255, 0, 0);
+        text-shadow: 3.3px 0px black;
+        
+    }
+
+
+}
+.brooo{
+    width: 250px;
+    height: 180px;
+    color: rgb(0, 136, 255);
+    background-image: url(https://i.ytimg.com/vi/0RAAM1u31MI/mqdefault.jpg);
+    animation-name: hehehehe;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction:alternate-reverse ;
+    animation-delay: 0ms;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+}
+@keyframes hehehehe{
+    from{
+        padding-right: 0px;
+        
+    }
+    to{
+        padding-right: 100px;
+        
+    }
+
+
+}
